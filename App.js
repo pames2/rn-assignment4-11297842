@@ -12,6 +12,8 @@ export default function App() {
       <Stack.Navigator initialRouteName="Login">
       <Stack.Screen name="Log In" component={LoginArea} />
       <Stack.Screen name="Home" component={HomeArea} />
+      
+      
     </Stack.Navigator>
     </NavigationContainer>
   );
